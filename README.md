@@ -1,4 +1,4 @@
-# manuscript-code
+# cyano-annotation-manuscript-code
 
 Analysis code for the manuscript on cyanobacterial genome annotation enrichment. The evaluated pipeline (Cyan-ote) runs Bakta, then InterProScan and eggNOG-mapper, and merges the results with Reannota. It is compared with Bakta alone and with Prokka.
 
@@ -7,6 +7,8 @@ Analysis code for the manuscript on cyanobacterial genome annotation enrichment.
 | [genome_fetcher/](genome_fetcher/) | Genome selection and download from NCBI: best assemblies per cyanobacterial family |
 | [kegg_analyses/](kegg_analyses/) | KO coverage and KEGG module reconstruction, Bakta vs integrated pipeline, 40 genomes |
 | [bgc_analyses/](bgc_analyses/) | Annotation gain for CDS inside antiSMASH clusters |
+| [figures/](figures/) | R scripts for figure generation |
+
 
 ## Setup
 
